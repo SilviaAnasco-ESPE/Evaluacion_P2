@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
