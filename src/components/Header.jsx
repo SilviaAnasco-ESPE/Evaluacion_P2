@@ -1,17 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Header = () => (
-  <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
-    <div className="logo">Fontainebleau</div>
-    <nav>
-      <ul className="flex space-x-4">
-        <li><Link to = "/">Home</Link></li>
-        <li><Link to="/gallery">Gallery</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-      </ul>
-    </nav>
-  </header>
-);
+const Header = () => {
+  return (
+    <header className="bg-gray-800 p-6 flex justify-between items-center">
+      <div className="text-white text-2xl font-bold">Fontainebleau</div>
+      <nav>
+        <ul className="flex space-x-6">
+          <li className="text-white text-lg font-bold">Home</li>
+          <li className="text-white text-lg font-bold">Gallery</li>
+          <li className="text-white text-lg font-bold">Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;
