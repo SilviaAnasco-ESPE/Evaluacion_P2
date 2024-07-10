@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-    <footer className="bg-gray-800 text-white p-4 text-center">
+    <footer className="bg-gray-800 text-white p-4 text-center" style={{ marginTop: '2%'}}>
         <p>Contact us at: Fontainebleau@miami.com</p>
         <p>Follow us on:</p>
         <ul className="flex justify-center space-x-4">
