@@ -3,7 +3,7 @@ import React from 'react';
 const ContactForm = () => {
     return (
         <div>
-        <h1>Contact Us</h1>
+        <h1>Contactos</h1>
         <form>
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" />

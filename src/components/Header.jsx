@@ -6,9 +6,9 @@ const Header = () => (
     <div className="logo">Logo</div>
     <nav>
       <ul className="flex space-x-4">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to = "/">Home</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   </header>
