@@ -1,16 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import MainContent from './components/MainContent';
+import Gallery from './components/Gallery';
+import ContactForm from './components/ContactForm';
 
-import Header from './components/Header';
-
-import Footer from './components/Footer';
-
-const App = () => (
-  <Router>
-    <Header />
-
-    <Footer />
-  </Router>
-);
+function App() {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<ContactForm />} />
+      </Routes>
+    </div>
+  );
+}
 
 export default App;
